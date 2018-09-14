@@ -1,0 +1,30 @@
+﻿======================================================
+ES670 - Laboratório (semanas 09 e 10)
+Prof. Denis Loubach
+======================================================
+
+"Roteiro rápido"
+
+0 - Incluir/integrar os códigos fonte fornecidos ao seu projeto
+
+1 - Fazer os includes abaixo:
+#include "Util/tc_hal.h"
+
+2 - Liberar (un-gate) o clock para as portas/módulos utilizados.
+
+3 - Para a utilização do cooler, ainda NÃO é necessário utilizar PWM. Basta ativá-lo em potência máxima, ou seja, configurar o pino para GPIO OUT.
+
+4 - Para a configuração do contador de pulsos, deverão ser utilizadas as seguintes configurações:
+- Será utilizado o TPM0
+- CLKIN0
+- Prescale 1:1
+- LPTPM_EXTCLK. External Clock Source
+- TPM Source OSCERCLK clock
+
+5 - Leituras exigidas do DATASHEET:
+- Capítulo 12 SIM (System Integration Module). Verificar implementações necessárias nos registradores SCGCx e SOPTx.
+- Capítulo 31 Timer/PWM Module. Verificar implementações do módulo TPM0.
+
+6 - Realizadas as configurações acima, a estratégia de como serão utilizados os dados aferidos pelo contador de hardware fica a cargo do aluno.
+
+7 - Imprimir a velocidade angular em RPS do cooler no LCD.
