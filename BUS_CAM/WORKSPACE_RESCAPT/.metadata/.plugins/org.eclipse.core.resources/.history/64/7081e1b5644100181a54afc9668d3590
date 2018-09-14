@@ -1,0 +1,71 @@
+/*
+ * pression.c
+ *
+ *  Created on: 7 avr. 2018
+ *      Author: FaveroPereira
+ */
+#include "pression.h"
+
+/*********************************************************\
+* Calculate the compensated pressure PComp from the last set
+* of ADC and coefficient values.
+* Calculate the pressure in 1/16 kPa from a compensated
+* \*********************************************************/
+uint16_t mpl115a1_CalculatePressure(void)
+{
+uint16_t Padc, Tadc;
+sint16_t a0, b1, b2, c12;
+sint16_t PComp;
+sint32_t Pressure;
+
+//VER PARA ENVIAR 00 E PARA COMECAR A CONVERSAO 024 E DELAYS
+// extract adc outputs
+Padc = (spi1_Transfer(PRESH) << 8) | spi1_Transfer(PRESL);
+Tadc = (spi1_Transfer(TEMPH) << 8) | spi1_Transfer(TEMPL);
+// extract coefficients
+a0 = (spi1_Transfer(A0MSB) << 8) | spi1_Transfer(A0LSB);
+b1 = (spi1_Transfer(B1MSB) << 8) | spi1_Transfer(B1LSB);
+b2 = (spi1_Transfer(B2MSB) << 8) | spi1_Transfer(B2MSB);
+c12 = (spi1_Transfer(C12MSB) << 8) | spi1_Transfer(C12LSB);
+// calculate internally compenstated PComp value using either version
+//PComp = calculatePCompLong(Padc, Tadc, a0, b1, b2, c12);
+PComp = calculatePCompShort(Padc, Tadc, a0, b1, b2, c12);
+
+
+// The final step is to convert the internal PComp value into units of kPa.
+// Pressure = PComp ∙ ((115.0 ‐ 50.0) / 1023.0) + 50
+//
+// The use of a floating point divide can be eliminated using the following approximation:
+// Pressure=((PComp∙1041)>>14)+50
+//
+
+	Pressure = ((((sint32_t) PComp) * 1041) >> 14) + 800;
+	return (uint16_t) Pressure;
+}
+
+
+/*********************************************************\
+* Calculate the compensated pressure PComp value using the brief version
+ *  \*********************************************************/
+sint16_t calculatePCompShort(uint16_t Padc, uint16_t Tadc, sint16_t a0,
+		sint16_t b1, sint16_t b2, sint16_t c12) {
+	sint32_t c12x2, a1, a1x1, y1, a2x2, PComp;
+// Pressure calculation (short)
+//=============================
+// This version of the pressure calculation function has the same function as the long
+// version and gets exaclty the same result, but is implemented more succinctly.
+	Padc >>= 6; //Note that the Padc is the raw value from Pegasus >>6 since its 10 bit unsigned
+	Tadc >>= 6; //Note that the Tadc is the raw value from Pegasus >>6 since its 10 bit unsigned
+
+// The compensation formula is:
+// PComp=a0+(b1+c12∙Tadc)∙Padc+b2∙Tadc
+
+	c12x2 = (((sint32_t) c12) * Tadc) >> 11; // c12x2 = c12 * Tadc a1 = (sint32)b1 + c12x2; // a1 = b1 + c12x2
+	a1x1 = a1 * Padc; //a1x1 =a1 *Padc
+	y1 = (((sint32_t) a0) << 10) + a1x1; // y1 = a0 + a1x1
+	a2x2 = (((sint32_t) b2) * Tadc) >> 1; // a2x2 = b2 * Tadc
+	PComp = (y1 + a2x2) >> 9; //PComp=y1 +a2x2
+
+	return (sint16_t) PComp;
+}
+
