@@ -1,0 +1,12 @@
+﻿======================================================
+ES670 - Laboratório (semana 11)
+Prof. Denis Loubach
+======================================================
+
+"Roteiro rápido"
+
+Completar e integrar as funções fornecidas com o código do aluno para regular o cooler com PWM. Variar o PWM entre 0, 25, 50, 75 e 100% através de comandos via Serial.
+
+Utilizar o modo de PWM Edge Aligned. Os valores para configurar o módulo TPM1 estão contidos no datasheet, capítulo 31.
+
+OBS: Configurar apenas o Canal 1 do TPM1. O Canal 0 está conectado ao resistor aquecedor e não deve ser utilizado nesta etapa.
