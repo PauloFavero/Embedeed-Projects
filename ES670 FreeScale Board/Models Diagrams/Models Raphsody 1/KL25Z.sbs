@@ -1,0 +1,189 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID 86eac769-f337-40e1-9f57-f8d2f2807448;
+	- _myState = 8192;
+	- _name = "KL25Z";
+	- _objectCreation = "1531522472017114617615";
+	- _umlDependencyID = "1827";
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "Buzzer.sbs";
+		- _subsystem = "Buzzer";
+		- _class = "";
+		- _name = "Packages DIagram";
+		- _id = GUID 1d7d0237-b1d2-483f-9356-4950bb2a0203;
+	}
+	- weakCGTime = 5.20.2017::5:33:54;
+	- strongCGTime = 5.12.2017::16:7:43;
+	- _defaultComposite = GUID eb836426-1833-4a21-8e91-6f33d98f67ef;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID eb836426-1833-4a21-8e91-6f33d98f67ef;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "1531542472017114615615";
+			- _umlDependencyID = "2294";
+			- weakCGTime = 5.20.2017::5:33:54;
+			- strongCGTime = 5.12.2017::16:7:43;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 3db34516-de32-47e5-97f1-b93c156196cf;
+			- _myState = 8192;
+			- _name = "es670_peripheral_board";
+			- _objectCreation = "1531562472017114613615";
+			- _umlDependencyID = "3634";
+			- Dependencies = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IDependency 
+					- _id = GUID 9f6b74c2-c1ab-4363-b1fb-0d1e3c4896fb;
+					- _myState = 2048;
+					- _name = "MKL25Z4";
+					- _objectCreation = "1531582472017114611615";
+					- _umlDependencyID = "1956";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "Projeto.sbs";
+						- _subsystem = "Projeto";
+						- _class = "";
+						- _name = "MKL25Z4";
+						- _id = GUID 30ffbefc-2d1f-4cad-8b50-17432b88ea94;
+					}
+				}
+				{ IDependency 
+					- _id = GUID d00eb888-7f21-4d86-bde2-ddc51d42665a;
+					- _myState = 2048;
+					- _name = "MKL25Z4_0";
+					- _objectCreation = "1531602472017114609615";
+					- _umlDependencyID = "2099";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "Projeto.sbs";
+						- _subsystem = "Projeto";
+						- _class = "";
+						- _name = "MKL25Z4";
+						- _id = GUID 30ffbefc-2d1f-4cad-8b50-17432b88ea94;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 192c0521-0b8b-440a-867f-0bb707889bbc;
+					- _myState = 2048;
+					- _name = "LedSwi";
+					- _objectCreation = "1531622472017114607615";
+					- _umlDependencyID = "2067";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "LedSwi.sbs";
+						- _subsystem = "LedSwi";
+						- _class = "";
+						- _name = "LedSwi";
+						- _id = GUID ec5140d5-a6c2-4621-88ae-0944e2d4ca84;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 90d376cd-66ca-40db-865a-a26c17d99c62;
+					- _myState = 2048;
+					- _name = "MKL25Z4_1";
+					- _objectCreation = "1531642472017114605615";
+					- _umlDependencyID = "2100";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "Projeto.sbs";
+						- _subsystem = "Projeto";
+						- _class = "";
+						- _name = "MKL25Z4";
+						- _id = GUID 30ffbefc-2d1f-4cad-8b50-17432b88ea94;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "Projeto.sbs";
+					- _subsystem = "Projeto";
+					- _class = "";
+					- _name = "File";
+					- _id = GUID e5e4b1c2-2f82-4386-80bb-9512ddb78bcb;
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Blocks Diagram";
+				- _id = GUID d7cfc29d-1336-48f2-a3b0-ac2ede0dd2ce;
+			}
+			- _lastID = 4;
+			- weakCGTime = 5.20.2017::6:3:10;
+			- strongCGTime = 4.2.2017::11:22:24;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID a746853c-fcbc-4607-835e-720c5bfe388f;
+					- _myState = 10240;
+					- _name = "itsMKL25Z4";
+					- _objectCreation = "1531662472017114603615";
+					- _umlDependencyID = "2292";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Projeto.sbs";
+						- _subsystem = "Projeto";
+						- _class = "";
+						- _name = "MKL25Z4";
+						- _id = GUID 30ffbefc-2d1f-4cad-8b50-17432b88ea94;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

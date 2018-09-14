@@ -1,0 +1,296 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID a11c1cc3-1f98-48f8-bd3c-1f4bcdd469b6;
+	- _myState = 8192;
+	- _name = "RequirementsPkg";
+	- _objectCreation = "1210811572017221915271";
+	- _umlDependencyID = "3051";
+	- Annotations = { IRPYRawContainer 
+		- size = 11;
+		- value = 
+		{ IRequirement 
+			- _id = GUID f37d975a-fe3e-4505-923b-366c2d212576;
+			- _name = "Requisito TECLADO";
+			- _objectCreation = "1210831572017221915071";
+			- _umlDependencyID = "2950";
+			- _description = { IDescription 
+				- _text = "O sistema deve ser capaz de realizar a funcionalidade de controlador digital.";
+			}
+			- _body = "O sistema deve permitir o monitoramento de 4 chaves tipo \"push button\".";
+			- reqID = "REQ1A";
+		}
+		{ IComment 
+			- _id = GUID 21bf3d45-5d05-4fef-bdf4-f82a88878fd9;
+			- _name = "Requerimento";
+			- _objectCreation = "1210851572017221914871";
+			- _umlDependencyID = "2766";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\b\\fs20 ES670 - Projeto de Sistemas Embarcados\\b0\\par
+Projeto \\tab Pr\\'e1tico\\par
+\\par
+Diagrama de Requisito de Sistema\\tab\\tab\\tab\\tab\\tab\\tab 01/07/2017\\par
+\\par
+}
+";
+			}
+			- _body = "";
+		}
+		{ IRequirement 
+			- _id = GUID e92dd3c4-ea55-4f5d-ae6b-853617c77d72;
+			- _name = "Requisito LED";
+			- _objectCreation = "1210871572017221914671";
+			- _umlDependencyID = "2664";
+			- _body = "O sistema deve ser capaz de acionar 4 LEDs.";
+			- reqID = "REQ1B";
+		}
+		{ IRequirement 
+			- _id = GUID 3445cdf9-bc0f-46c4-bb85-a290ec4e27c5;
+			- _name = "Requisito DISPLAY7SEG";
+			- _objectCreation = "1210891572017221914471";
+			- _umlDependencyID = "3263";
+			- _body = "O sistema deve ser capaz de acionar 4 displays de 7 segmentos.";
+			- reqID = "REQ1C";
+		}
+		{ IRequirement 
+			- _id = GUID 0960a72a-18df-41e1-aa63-32333ef28093;
+			- _name = "Requisito PWM";
+			- _objectCreation = "1210911572017221914271";
+			- _umlDependencyID = "2686";
+			- _description = { IDescription 
+				- _text = "O sistema deve ser capaz de gerar um sinal PWM
+";
+			}
+			- _body = "O sistema deve ser capaz de gerar um sinal PWM";
+			- reqID = "REQ5
+";
+		}
+		{ IRequirement 
+			- _id = GUID 453db3a1-fc85-4321-ac09-19d549072e72;
+			- _name = "Requisito VELOCIDADE";
+			- _objectCreation = "1210931572017221914071";
+			- _umlDependencyID = "3162";
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 O sistema deve ser capaz de realizar medi\\'e7\\'f5es de velocidade de rota\\'e7\\'e3o.\\par
+}
+";
+			- reqID = "REQ4";
+		}
+		{ IRequirement 
+			- _id = GUID 789aa159-2e74-403a-bd53-39e3ee0f6dcb;
+			- _name = "Requisito CONTROLE";
+			- _objectCreation = "1210951572017221913871";
+			- _umlDependencyID = "3065";
+			- _body = "O sistema deve ser capaz de realizar a funcionalidade de controlador digital.";
+			- reqID = "REQ7";
+		}
+		{ IRequirement 
+			- _id = GUID 656dc0b8-b6b2-41a9-81df-2ff4a7c00e78;
+			- _name = "Requisito ADC";
+			- _objectCreation = "1210971572017221913671";
+			- _umlDependencyID = "2651";
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 O sistema deve ser capaz de realizar a leitura de um sinal anal\\'f3gico e tamb\\'e9m a convers\\'e3o A/D deste sinal\\par
+}
+";
+			- reqID = "REQ6";
+		}
+		{ IRequirement 
+			- _id = GUID 5cd83197-5dd1-4e93-89b3-eb877de409a9;
+			- _name = "Requisito PROTOCOLO";
+			- _objectCreation = "1210991572017221913471";
+			- _umlDependencyID = "3156";
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 O sistema deve possuir um protocolo de comunica\\'e7\\'e3o serial capaz de receber comandos e retornar status dos perif\\'e9ricos do sistema.\\par
+}
+";
+			- reqID = "REQ2";
+		}
+		{ IRequirement 
+			- _id = GUID b1190a78-4767-4987-81d9-52ff91e5a97c;
+			- _name = "Requisito LCD";
+			- _objectCreation = "1211011572017221913271";
+			- _umlDependencyID = "2644";
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 O sistema deve ser capaz de exibir mensagens  alfanum\\'e9ricas num LCD.\\par
+}
+";
+			- reqID = "REQ3";
+		}
+		{ IRequirement 
+			- _id = GUID ab152b8d-219d-4a1f-a3f4-ce6288fcae8b;
+			- _name = "Requisito PID";
+			- _objectCreation = "1211031572017221913071";
+			- _umlDependencyID = "2654";
+			- _body = "O sistema deve ser capaz de realizar a funcionalidade de controlador digital.";
+			- reqID = "REQ7";
+		}
+	}
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "Buzzer.sbs";
+		- _subsystem = "Buzzer";
+		- _class = "";
+		- _name = "Packages DIagram";
+		- _id = GUID 1d7d0237-b1d2-483f-9356-4950bb2a0203;
+	}
+	- _lastID = 19;
+	- weakCGTime = 7.1.2017::23:59:26;
+	- strongCGTime = 7.1.2017::0:52:2;
+	- _defaultComposite = GUID a1d4deaf-3ee8-406d-a74c-b3102ddbc2d7;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ IClass 
+			- _id = GUID a1d4deaf-3ee8-406d-a74c-b3102ddbc2d7;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "1211051572017221912871";
+			- _umlDependencyID = "2288";
+			- weakCGTime = 7.1.2017::0:57:0;
+			- strongCGTime = 7.1.2017::0:52:2;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IPart 
+					- _id = GUID 2caccf71-37b4-4103-9fbd-e1bf71cfb0b5;
+					- _myState = 8192;
+					- _name = "cmdmacine_hal";
+					- _objectCreation = "1211071572017221912671";
+					- _umlDependencyID = "2810";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 589d8fff-70f6-4837-95e2-68eaaeccef5d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 589d8fff-70f6-4837-95e2-68eaaeccef5d;
+						- _myState = 10240;
+						- _name = "cmdmacine_hal";
+						- _objectCreation = "1211091572017221912471";
+						- _umlDependencyID = "2810";
+						- Stereotypes = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IHandle 
+								- _m2Class = "IStereotype";
+								- _filename = "PredefinedTypesC++.sbs";
+								- _subsystem = "PredefinedTypesCpp";
+								- _class = "";
+								- _name = "Subsystem";
+								- _id = GUID 4ea1c1da-7dc6-4a35-bc5a-313393e8408f;
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Blocks Diagram";
+							- _id = GUID d7cfc29d-1336-48f2-a3b0-ac2ede0dd2ce;
+						}
+						- weakCGTime = 4.28.2017::22:48:56;
+						- strongCGTime = 4.28.2017::22:48:56;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID 0cd38157-2b2a-45d3-84a1-b5fd01d35fd4;
+					- _myState = 10240;
+					- _name = "object_0";
+					- _objectCreation = "1211111572017221912271";
+					- _umlDependencyID = "2242";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 07bb41ae-d7c8-44b7-a8bd-0fdd14639bed;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 07bb41ae-d7c8-44b7-a8bd-0fdd14639bed;
+						- _myState = 10240;
+						- _name = "object_0";
+						- _objectCreation = "1211131572017221912071";
+						- _umlDependencyID = "2242";
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Requirements";
+							- _id = GUID 2ce4cacb-706a-4a24-b860-99469195eba8;
+						}
+						- weakCGTime = 6.17.2017::17:23:34;
+						- strongCGTime = 6.17.2017::17:23:34;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 2ef301fa-dd31-49a6-972f-985628977ff8;
+			- _myState = 10240;
+			- _name = "class_13";
+			- _objectCreation = "1211151572017221911871";
+			- _umlDependencyID = "2206";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Requirements";
+				- _id = GUID 2ce4cacb-706a-4a24-b860-99469195eba8;
+			}
+			- weakCGTime = 6.17.2017::17:23:29;
+			- strongCGTime = 6.17.2017::17:23:29;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 5b474bfa-c372-443b-9faa-8163a18d09f5;
+			- _myState = 10240;
+			- _name = "class_14";
+			- _objectCreation = "1211171572017221911671";
+			- _umlDependencyID = "2207";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Requirements";
+				- _id = GUID 2ce4cacb-706a-4a24-b860-99469195eba8;
+			}
+			- weakCGTime = 6.17.2017::17:23:39;
+			- strongCGTime = 6.17.2017::17:23:39;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 4.28.2017::22:43:39;
+}
+

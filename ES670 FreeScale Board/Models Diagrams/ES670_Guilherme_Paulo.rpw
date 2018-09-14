@@ -1,0 +1,165 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
+{ CGEMdiWorkspace 
+	- stubList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- myViewsWithID = { IRPYRawContainer 
+		- size = 5;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 104;
+				- m_nTop = 104;
+				- m_nRight = 1076;
+				- m_nBottom = 532;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Blocks Diagram";
+				- _id = GUID d7cfc29d-1336-48f2-a3b0-ac2ede0dd2ce;
+			}
+			- _UpLeft = 1003 893 ;
+			- _DownRight = 2420 1451 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 3;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 130;
+				- m_nTop = 130;
+				- m_nRight = 1434;
+				- m_nBottom = 722;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "Buzzer.sbs";
+				- _subsystem = "Buzzer";
+				- _class = "";
+				- _name = "Packages DIagram";
+				- _id = GUID 1d7d0237-b1d2-483f-9356-4950bb2a0203;
+			}
+			- _UpLeft = 0 27 ;
+			- _DownRight = 1423 624 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 156;
+				- m_nTop = 156;
+				- m_nRight = 981;
+				- m_nBottom = 584;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "Cmdmachine.sbs";
+				- _subsystem = "Cmdmachine";
+				- _class = "cmdmachine_hal";
+				- _name = "StatechartDiagram";
+				- _id = GUID 8d29af25-1e6a-4444-8ba3-c180cab22c15;
+			}
+			- _UpLeft = 177 166 ;
+			- _DownRight = 1531 972 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 26;
+				- m_nTop = 26;
+				- m_nRight = 998;
+				- m_nBottom = 485;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Requirements";
+				- _id = GUID 2ce4cacb-706a-4a24-b860-99469195eba8;
+			}
+			- _UpLeft = 47 112 ;
+			- _DownRight = 1052 541 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 4;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 78;
+				- m_nTop = 78;
+				- m_nRight = 903;
+				- m_nBottom = 506;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "SubsystemsPkg.sbs";
+				- _subsystem = "SubsystemsPkg";
+				- _class = "";
+				- _name = "Diagrama de Sequencia";
+				- _id = GUID 9958f030-301e-4921-b63c-44d7e730fe7f;
+			}
+			- _UpLeft = 170 0 ;
+			- _DownRight = 1748 819 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 2;
+		}
+	}
+	- _fullName = "C:\\Users\\aluno\\Desktop\\Es670_Paulo_Guilherme\\Embarcados\\Modelo_etapa2\\ES670_Guilherme_Paulo";
+	- m_SearchScopeList = { IRPYRawContainer 
+		- size = 0;
+	}
+
+	- m_favoritesTree = {
+		count=1;
+		{ - favoritesItem
+			generation = 0;
+			name = Favorites;
+			idOrFolder = folder;
+		}
+	}
+
+}
+

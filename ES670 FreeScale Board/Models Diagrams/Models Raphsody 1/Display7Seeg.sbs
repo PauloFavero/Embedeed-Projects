@@ -1,0 +1,46 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID 1ba477d1-fb89-4f09-8992-080abba27dc1;
+	- _myState = 8192;
+	- _name = "Display7Seeg";
+	- _objectCreation = "56323172552017824987456";
+	- _umlDependencyID = "2730";
+	- weakCGTime = 4.2.2017::11:55:51;
+	- strongCGTime = 4.2.2017::11:55:47;
+	- _defaultComposite = GUID 6790038a-02f2-4031-8c4b-aac190f9d8f4;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID 6790038a-02f2-4031-8c4b-aac190f9d8f4;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "56323192552017824985456";
+			- _umlDependencyID = "2372";
+			- weakCGTime = 12.31.1969::22:0:0;
+			- strongCGTime = 12.31.1969::22:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 57494458-43b4-42db-b1fa-e6142adcf2e6;
+			- _myState = 10240;
+			- _name = "class_8";
+			- _objectCreation = "56323212552017824983456";
+			- _umlDependencyID = "2237";
+			- weakCGTime = 4.2.2017::11:55:51;
+			- strongCGTime = 4.2.2017::11:55:51;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 12.31.1969::22:0:0;
+}
+

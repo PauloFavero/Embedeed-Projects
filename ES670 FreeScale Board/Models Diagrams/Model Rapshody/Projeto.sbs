@@ -1,0 +1,175 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID 069cb2c8-5c19-4a90-b71b-dbb77044adcb;
+	- _myState = 8192;
+	- _name = "Projeto";
+	- _objectCreation = "2320341572017221895172";
+	- _umlDependencyID = "2224";
+	- Annotations = { IRPYRawContainer 
+		- size = 6;
+		- value = 
+		{ IComment 
+			- _id = GUID b2231a65-4114-4b42-bce0-d1cd41c93944;
+			- _name = "Bloco";
+			- _objectCreation = "2320361572017221894972";
+			- _umlDependencyID = "1989";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\b\\fs24 ES670 - Projeto de Sistemas Embarcados\\b0\\par
+Projeto Pr\\'e1tico\\par
+\\par
+\\par
+Diagrama de Defini\\'e7\\'e3o Blocos\\tab\\tab\\tab\\tab\\tab\\tab                    \\tab\\tab\\tab    01/07/2017\\fs20\\par
+}
+";
+			}
+			- _body = "";
+		}
+		{ IComment 
+			- _id = GUID 3c7a5122-e2d7-4fc1-82c6-f04d09f88638;
+			- _name = "Semana";
+			- _objectCreation = "2320381572017221894772";
+			- _umlDependencyID = "2091";
+			- _description = { IDescription 
+				- _text = "Semana 06";
+			}
+			- _body = "";
+		}
+		{ IComment 
+			- _id = GUID 573997e9-e66e-4c5d-a024-505f760003e6;
+			- _name = "Semana_4";
+			- _objectCreation = "2320401572017221894572";
+			- _umlDependencyID = "2229";
+			- _body = "";
+		}
+		{ IComment 
+			- _id = GUID 89cc8c5f-e9ff-484c-a583-7cd77f4203cf;
+			- _name = "Sequencial";
+			- _objectCreation = "2320421572017221894372";
+			- _umlDependencyID = "2519";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\b\\fs20 ES670 - Projeto de Sistemas Embarcados\\b0\\par
+Projeto \\tab Pr\\'e1tico\\par
+\\par
+Diagrama de Sequ\\'eancia\\tab\\tab\\tab\\tab\\tab 01/07/2017\\par
+\\par
+}
+";
+			}
+			- _body = "";
+		}
+		{ IComment 
+			- _id = GUID 097535f6-19a1-46fb-847e-a544cc44af8a;
+			- _name = "Maquina_de_Estado";
+			- _objectCreation = "2320441572017221894172";
+			- _umlDependencyID = "3200";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\b\\fs20 ES670 - Projeto de Sistemas Embarcados\\b0\\par
+Projeto \\tab Pr\\'e1tico\\par
+\\par
+Diagrama de M\\'e1quina de Estados\\tab\\tab\\tab\\tab\\tab\\tab 01/06/2017\\par
+\\par
+}
+";
+			}
+			- _body = "";
+		}
+		{ IComment 
+			- _id = GUID 34e0e2cb-4a0e-4d86-9c2f-609aa10ef582;
+			- _myState = 2048;
+			- _name = "comment_6";
+			- _objectCreation = "2320461572017221893972";
+			- _umlDependencyID = "2398";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\b\\fs20 ES670 - Projeto de Sistemas Embarcados\\b0\\par
+Projeto \\tab Pr\\'e1tico\\par
+\\par
+Diagrama de Pacotes\\tab\\tab\\tab\\tab\\tab 01/07/2017\\par
+}
+";
+			}
+			- _body = "";
+		}
+	}
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "Buzzer.sbs";
+		- _subsystem = "Buzzer";
+		- _class = "";
+		- _name = "Packages DIagram";
+		- _id = GUID 1d7d0237-b1d2-483f-9356-4950bb2a0203;
+	}
+	- _lastID = 7;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IStereotype 
+			- _id = GUID e5e4b1c2-2f82-4386-80bb-9512ddb78bcb;
+			- _myState = 8192;
+			- _name = "File";
+			- _objectCreation = "2320481572017221893772";
+			- _umlDependencyID = "1878";
+			- _m2Classes = { IRPYRawContainer 
+				- size = 2;
+				- value = "Package"; "Class"; 
+			}
+		}
+	}
+	- weakCGTime = 7.2.2017::1:41:32;
+	- strongCGTime = 5.21.2017::21:40:53;
+	- _defaultComposite = GUID d831afb1-cb97-4400-9599-98acab7f702f;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID d831afb1-cb97-4400-9599-98acab7f702f;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "2320501572017221893572";
+			- _umlDependencyID = "2296";
+			- weakCGTime = 7.1.2017::1:25:14;
+			- strongCGTime = 5.21.2017::21:40:53;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 30ffbefc-2d1f-4cad-8b50-17432b88ea94;
+			- _myState = 8192;
+			- _name = "MKL25Z4";
+			- _objectCreation = "2320521572017221893372";
+			- _umlDependencyID = "1958";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID e5e4b1c2-2f82-4386-80bb-9512ddb78bcb;
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Blocks Diagram";
+				- _id = GUID d7cfc29d-1336-48f2-a3b0-ac2ede0dd2ce;
+			}
+			- weakCGTime = 4.2.2017::11:12:4;
+			- strongCGTime = 4.2.2017::11:12:4;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

@@ -1,0 +1,193 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID b8b088f1-4731-48a3-b977-0d681cec49ec;
+	- _myState = 8192;
+	- _name = "Heater";
+	- _objectCreation = "3241682342201715867563";
+	- _umlDependencyID = "2098";
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "Buzzer.sbs";
+		- _subsystem = "Buzzer";
+		- _class = "";
+		- _name = "Packages DIagram";
+		- _id = GUID 1d7d0237-b1d2-483f-9356-4950bb2a0203;
+	}
+	- _lastID = 1;
+	- weakCGTime = 6.23.2017::18:36:50;
+	- strongCGTime = 6.17.2017::16:57:1;
+	- _defaultComposite = GUID bbb86c15-02b2-43c4-a23a-3b4f86369c39;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID bbb86c15-02b2-43c4-a23a-3b4f86369c39;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "3241702342201715867363";
+			- _umlDependencyID = "2299";
+			- weakCGTime = 6.17.2017::16:57:32;
+			- strongCGTime = 6.17.2017::16:57:1;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 4af69b57-e340-4307-ae0d-2ec6f8ea060f;
+			- _myState = 8192;
+			- _name = "Heater";
+			- _objectCreation = "3241722342201715867163";
+			- _umlDependencyID = "2089";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 599698cf-c627-4529-b323-d12e3db1916d;
+					- _myState = 2048;
+					- _name = "es670_peripheral_board";
+					- _objectCreation = "3241742342201715866963";
+					- _umlDependencyID = "3648";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "KL25Z.sbs";
+						- _subsystem = "KL25Z";
+						- _class = "";
+						- _name = "es670_peripheral_board";
+						- _id = GUID 3db34516-de32-47e5-97f1-b93c156196cf;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypesC++.sbs";
+					- _subsystem = "PredefinedTypesCpp";
+					- _class = "";
+					- _name = "Subsystem";
+					- _id = GUID 4ea1c1da-7dc6-4a35-bc5a-313393e8408f;
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Blocks Diagram";
+				- _id = GUID d7cfc29d-1336-48f2-a3b0-ac2ede0dd2ce;
+			}
+			- _lastID = 5;
+			- weakCGTime = 6.23.2017::18:36:54;
+			- strongCGTime = 6.17.2017::17:26:16;
+			- Operations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 699d46a6-dc9e-41f9-bf53-9e20fddcbdb7;
+					- _myState = 8192;
+					- _name = "initHeater";
+					- _objectCreation = "3241762342201715866763";
+					- _umlDependencyID = "2534";
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 0eb70854-d5f3-4d15-ab7a-4dc88de0090a;
+					- _myState = 8192;
+					- _name = "initTPM1AsPWM";
+					- _objectCreation = "3241782342201715866563";
+					- _umlDependencyID = "2647";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 66e34a11-8fdf-4b40-8b5d-bc630e224b0f;
+					- _myState = 8192;
+					- _name = "setHeater";
+					- _objectCreation = "3241802342201715866363";
+					- _umlDependencyID = "2421";
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID 75ee60d0-8d2c-4ed0-b7d1-a1f6455b36d8;
+							- _name = "iTemperature";
+							- _objectCreation = "3241822342201715866163";
+							- _umlDependencyID = "2759";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC++.sbs";
+								- _subsystem = "PredefinedTypesCpp";
+								- _class = "";
+								- _name = "int";
+								- _id = GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+
